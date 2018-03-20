@@ -21,7 +21,7 @@ bot.on('message', (message) => {
         
            
     }
-});
+
 // Create an event listener for new guild members
 bot.on('guildMemberAdd', member => {
     // Send the message to a designated channel on a server:
