@@ -18,9 +18,10 @@ bot.on('message', (message) => {
     if(message.content.includes('gay')) {
         if (message.author.bot) return;
         message.reply('no u');
-        
-           
     }
+    if (fromID === me && text.includes("!say") ) {
+    bot.sendMessage({ to: channel, message: txt.replace('!say ','') });
+}
 });
 // Create an event listener for new guild members
 bot.on('guildMemberAdd', member => {
