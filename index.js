@@ -27,7 +27,7 @@ bot.on('message', (message) => {
         if (message.author.bot) return;
         message.reply('no no no no no, u fagola and now stfu');
     }
-     if(message.author == '296740277186723841') {
+     if(message.author === '296740277186723841') {
         message.channel.send('test');
     }
 });
