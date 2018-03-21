@@ -19,6 +19,10 @@ bot.on('message', (message) => {
         if (message.author.bot) return;
         message.reply('no u');
     }
+    if(message.content == 'szkola') {
+        // message.reply('to jebane gowno');
+        message.channel.send('to jebane gówno');
+    }
 });
 // Create an event listener for new guild members
 bot.on('guildMemberAdd', member => {
