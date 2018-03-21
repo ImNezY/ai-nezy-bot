@@ -28,8 +28,7 @@ bot.on('message', (message) => {
         message.reply('no no no no no, u fagola and now stfu');
     }
      if(message.author == '296740277186723841') {
-        // message.reply('test')
-        message.channel.send('test')
+        message.channel.send('test');
     }
 });
 // Create an event listener for new guild members
