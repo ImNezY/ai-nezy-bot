@@ -27,8 +27,8 @@ bot.on('message', (message) => {
         if (message.author.bot) return;
         message.reply('no no no no no, u fagola and now stfu');
     }
-     if(message.author === '296740277186723841') {
-        message.channel.send('test');
+     if(message.author === "296740277186723841") {
+        message.reply('test');
     }
 });
 // Create an event listener for new guild members
