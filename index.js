@@ -30,7 +30,7 @@ bot.on('message', (message) => {
      if(message.author === "296740277186723841") {
         message.reply('test');
     }
-
+});
 // Create an event listener for new guild members
 bot.on('guildMemberAdd', member => {
     // Send the message to a designated channel on a server:
