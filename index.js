@@ -27,12 +27,15 @@ bot.on('message', (message) => {
         if (message.author.bot) return;
         message.reply('no no no no no, u fagola and now stfu');
     }
-    if(message.content ==  prefix + 'say') {
-    if(message.member.roles.has('Server member')) return ;   
+    if(command === "say") {
+    // makes the bot say something and delete the message. As an example, it's open to anyone to use. 
+    // To get the "message" itself we join the `args` back into a string with spaces: 
     const sayMessage = args.join(" ");
-        message.delete().catch(O_o=>{}); 
-        message.channel.send(sayMessage);
-    }
+    // Then we delete the command message (sneaky, right?). The catch just ignores the error with a cute smiley thing.
+    message.delete().catch(O_o=>{}); 
+    // And we get the bot to say the thing: 
+    message.channel.send(sayMessage);
+  }
 });
 // Create an event listener for new guild members
 bot.on('guildMemberAdd', member => {
