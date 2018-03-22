@@ -27,9 +27,11 @@ bot.on('message', (message) => {
         if (message.author.bot) return;
         message.reply('no no no no no, u fagola and now stfu');
     }
-    if(message.content.includes('гей')) {
-        if (message.author.bot) return;
-        message.reply('no u');
+    if(message.content ==  prefix + 'say') {
+    if(message.member.roles.has('Server member')) return ;   
+    const sayMessage = args.join(" ");
+        message.delete().catch(O_o=>{}); 
+        message.channel.send(sayMessage);
     }
 });
 // Create an event listener for new guild members
