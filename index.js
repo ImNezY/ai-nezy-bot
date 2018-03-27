@@ -28,25 +28,26 @@ bot.on('message', (message) => {
         message.reply('no no no no no, u fagola and now stfu');
     }
     if(message.content.includes('Gay')) {
-       if (message.author.bot) reply ;
+       if (message.author.bot) return ;
     message.reply('no u') ;
     }
     
     if(message.content.includes('GAY')) {
-       if (message.author.bot) reply ;
+       if (message.author.bot) return ;
+       if (message.author
     message.reply('no u') ;
     }
-    if(message.content.includes('i am gay')) {
-       if (message.author.bot) reply ;
-    message.reply('no u') ;
+    if(message.content == 'i am gay') {
+       if (message.author.bot) return ;
+    message.reply('yes you are') ;
     }
-    if(message.content.includes('i am Gay')) {
-       if (message.author.bot) reply ;
-    message.reply('no u') ;
+    if(message.content == 'i am Gay') {
+       if (message.author.bot) return ;
+    message.reply('yes you are') ;
     }
-    if(message.content.includes('i am GAY')) {
-       if (message.author.bot) reply ;
-    message.reply('no u') ;
+    if(message.content == 'i am GAY') {
+       if (message.author.bot) return ;
+    message.reply('yes you are') ;
     }
 });
 // Create an event listener for new guild members
