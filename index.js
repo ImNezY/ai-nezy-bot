@@ -34,7 +34,6 @@ bot.on('message', (message) => {
     
     if(message.content.includes('GAY')) {
        if (message.author.bot) return ;
-       if (message.author
     message.reply('no u') ;
     }
 });
