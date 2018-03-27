@@ -9,11 +9,11 @@ bot.on('message', (message) => {
     }  
     if(message.content.includes('bixxy')) {
         // message.reply('UNBAN PLS');
-    message.reply('UNBAN PLS') ;
+    message.channel.send('UNBAN PLS') ;
     }
     if(message.content.includes('Bixxy')) {
         // message.reply('UNBAN PLS');
-    message.reply('UNBAN PLS') ;
+    message.channel.send('UNBAN PLS') ;
     }
     if(message.content == 'alex') {
         // message.reply('is russian pidoras i chuj');
