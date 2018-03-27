@@ -36,6 +36,18 @@ bot.on('message', (message) => {
        if (message.author.bot) reply ;
     message.reply('no u') ;
     }
+    if(message.content.includes('i am gay')) {
+       if (message.author.bot) reply ;
+    message.reply('no u') ;
+    }
+    if(message.content.includes('i am Gay')) {
+       if (message.author.bot) reply ;
+    message.reply('no u') ;
+    }
+    if(message.content.includes('i am GAY')) {
+       if (message.author.bot) reply ;
+    message.reply('no u') ;
+    }
 });
 // Create an event listener for new guild members
 bot.on('guildMemberAdd', member => {
