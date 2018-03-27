@@ -37,18 +37,6 @@ bot.on('message', (message) => {
        if (message.author
     message.reply('no u') ;
     }
-    if(message.content == 'i am gay') {
-       if (message.author.bot) return ;
-    message.reply('yes you are') ;
-    }
-    if(message.content == 'i am Gay') {
-       if (message.author.bot) return ;
-    message.reply('yes you are') ;
-    }
-    if(message.content == 'i am GAY') {
-       if (message.author.bot) return ;
-    message.reply('yes you are') ;
-    }
 });
 // Create an event listener for new guild members
 bot.on('guildMemberAdd', member => {
