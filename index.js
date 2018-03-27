@@ -7,9 +7,13 @@ bot.on('message', (message) => {
         message.reply('welcome to useless nezy bot')
  
     }  
-    if(message.content == 'bixxy') {
-        // message.reply('is gay');
-        message.channel.send('is gay');
+    if(message.content.includes('bixxy')) {
+        // message.reply('UNBAN PLS');
+    message.reply('UNBAN PLS') ;
+    }
+    if(message.content.includes('Bixxy')) {
+        // message.reply('UNBAN PLS');
+    message.reply('UNBAN PLS') ;
     }
     if(message.content == 'alex') {
         // message.reply('is russian pidoras i chuj');
