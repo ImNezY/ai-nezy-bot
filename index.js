@@ -51,7 +51,7 @@ bot.on('guildMemberAdd', member => {
     channel.send(`Welcome to nezy server, ${member}`);
   });    
 
-bot.on('ready', () => { bot.user.setActivity('ure mom gay') })
+bot.on('ready', () => { bot.user.setActivity('BIXXY UNBAN PLS') })
 
    
 bot.login(process.env.BOT_TOKEN);
