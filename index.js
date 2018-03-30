@@ -21,6 +21,7 @@ bot.on('message', (message) => {
     }
     if(message.content.includes('gay')) {
         if (message.author.bot) return;
+        if (message.author.id === '296740277186723841') return;
         message.reply('no u');
     }
     if(message.content == 'szkola') {
@@ -29,6 +30,7 @@ bot.on('message', (message) => {
     }
     if(message.content.includes('no u')) {
         if (message.author.bot) return;
+        if (message.author.id === '296740277186723841') return;
         message.reply('no no no no no, u fagola and now stfu');
     }
     if(message.content.includes('Gay')) {
@@ -39,6 +41,7 @@ bot.on('message', (message) => {
     
     if(message.content.includes('GAY')) {
        if (message.author.bot) return ;
+       if (message.author.id === '296740277186723841') return;     
     message.reply('no u') ;
     }
 });
