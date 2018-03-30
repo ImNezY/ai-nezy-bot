@@ -33,6 +33,7 @@ bot.on('message', (message) => {
     }
     if(message.content.includes('Gay')) {
        if (message.author.bot) return ;
+       if (message.author.id === '296740277186723841') return;
     message.reply('no u') ;
     }
     
