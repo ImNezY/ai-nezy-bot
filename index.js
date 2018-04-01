@@ -31,7 +31,7 @@ bot.on('message', (message) => {
         if (message.author.id === '296740277186723841') return;
         if (message.content.includes('.')) return;
         if (message.content.includes('sexy')) return;
-        message.reply('no u');
+        message.reply('no u not');
     }
     if(message.content == 'szkola') {
         // message.reply('to jebane gowno');
