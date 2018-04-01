@@ -22,6 +22,7 @@ bot.on('message', (message) => {
     if(message.content.includes('gay')) {
         if (message.author.bot) return;
         if (message.author.id === '296740277186723841') return;
+        if (message.content.includes('.')) return;
         message.reply('no u');
     }
     if(message.content == 'szkola') {
