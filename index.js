@@ -23,6 +23,7 @@ bot.on('message', (message) => {
         if (message.author.bot) return;
         if (message.author.id === '296740277186723841') return;
         if (message.content.includes('.')) return;
+        if (message.content.includes ('i am')) message.reply('yes you are');
         message.reply('no u');
     }
     if(message.content == 'szkola') {
