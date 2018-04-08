@@ -71,7 +71,7 @@ bot.on('guildMemberAdd', member => {
     
   });    
 
-bot.on('ready', () => { bot.user.setActivity('licking Connor\'s feet) })
+bot.on('ready', () => { bot.user.setActivity('licking Connor\s feet') })
 
 bot.login(process.env.BOT_TOKEN);
 
