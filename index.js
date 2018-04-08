@@ -68,4 +68,4 @@ bot.on('guildMemberAdd', member => {
 bot.on('ready', () => { bot.user.setActivity('BIXXY UNBAN PLS') })
 
    
-bot.login(process.env.BOT_TOKEN);
+
