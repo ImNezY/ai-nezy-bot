@@ -7,18 +7,6 @@ bot.on('message', (message) => {
         message.reply('welcome to useless nezy bot')
  
     }  
-    if(message.content.includes('bixxy')) {
-        // message.reply('UNBAN PLS');
-    message.channel.send('UNBAN PLS') ;
-    }
-    if(message.content.includes('Bixxy')) {
-        // message.reply('UNBAN PLS');
-    message.channel.send('UNBAN PLS') ;
-    }
-    if(message.content == 'alex') {
-        // message.reply('is russian pidoras i chuj');
-        message.channel.send('is russian pidoras i chuj');
-    }
     if(message.content.includes('gay')) {
         if (message.author.bot) return;
         if (message.author.id === '296740277186723841') return;
