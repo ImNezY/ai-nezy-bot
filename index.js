@@ -50,7 +50,7 @@ bot.on('message', (message) => {
     
     if(message.content.includes('GAY')) {
        if (message.author.bot) return ;
-       if (message.author.id === '296740277186723841') return;     
+       if (message.author.d === '296740277186723841') return;     
     message.reply('no u') ;
     }
 });
