@@ -50,7 +50,7 @@ bot.on('message', (message) => {
     
     if(message.content.includes('GAY')) {
        if (message.author.bot) return ;
-       if (message.author.d === '296740277186723841') return;     
+       if (message.author.id === '296740277186723841') return;     
     message.reply('no u') ;
     }
 });
@@ -61,11 +61,19 @@ bot.on('guildMemberAdd', member => {
     // Do nothing if the channel wasn't found on this server
     if (!channel) return;
     // Send the message, mentioning the member
-    member.AddRole('server member')
     channel.send(`Welcome to nezy server, ${member}`);
+    
+    // Adding the role for new members
+    var role = member.guild.roles.find('name', 'Server member');
+
+    // Adding the role for real
+    member.addRole(role);
+    
   });    
 
-bot.on('ready', () => { bot.user.setActivity('BIXXY UNBAN PLS') })
+bot.on('ready', () => { bot.user.setActivity('licking Connor\'s feet })
+
+bot.login(process.env.BOT_TOKEN);
 
    
 
