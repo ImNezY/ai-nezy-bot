@@ -7,13 +7,23 @@ bot.on('message', (message) => {
         message.reply('welcome to useless nezy bot')
  
     }  
+    if(message.content.includes('bixxy')) {
+        // message.reply('UNBAN PLS');
+    message.channel.send('UNBAN PLS') ;
+    }
+    if(message.content.includes('Bixxy')) {
+        // message.reply('UNBAN PLS');
+    message.channel.send('UNBAN PLS') ;
+    }
+    if(message.content == 'alex') {
+        // message.reply('is russian pidoras i chuj');
+        message.channel.send('is russian pidoras i chuj');
+    }
     if(message.content.includes('gay')) {
         if (message.author.bot) return;
         if (message.author.id === '296740277186723841') return;
         if (message.content.includes('.')) return;
-        if (message.content.includes('gay')) return;
         message.reply('no u');
-    }
     }
     if(message.content == 'szkola') {
         // message.reply('to jebane gowno');
@@ -44,17 +54,11 @@ bot.on('guildMemberAdd', member => {
     if (!channel) return;
     // Send the message, mentioning the member
     channel.send(`Welcome to nezy server, ${member}`);
-    
-    // Adding the role for new members
-    var role = member.guild.roles.find('name', 'Server member');
-
-    // Adding the role for real
-    member.addRole(role);
-    
   });    
 
-bot.on('ready', () => { bot.user.setActivity('licking Connor\s feet') })
+bot.on('ready', () => { bot.user.setActivity('watching porn') })
 
+   
 bot.login(process.env.BOT_TOKEN);
 
    
