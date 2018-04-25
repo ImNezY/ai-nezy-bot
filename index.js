@@ -56,7 +56,7 @@ bot.on('guildMemberAdd', member => {
     channel.send(`Welcome to nezy server, ${member}`);
   });    
 
-bot.on('ready', () => { bot.user.setActivity('Łukasz to chuj') })
+bot.on('ready', () => { bot.user.setActivity('Kowalski to chuj') })
 
    
 bot.login(process.env.BOT_TOKEN);
