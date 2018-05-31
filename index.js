@@ -35,7 +35,7 @@ bot.on('message', (message) => {
     message.reply('no u') ;
     }
     
-    if(message.content.startsWith("8ball")){
+    if(message.content.includes("8ball")){
        randomNumber = Math.floor(Math.random() * (6 - 1) + 1);
     if(randomNumber == 2){  
        message.reply("yes");
