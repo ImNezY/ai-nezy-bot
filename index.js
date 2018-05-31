@@ -34,6 +34,15 @@ bot.on('message', (message) => {
        if (message.author.id === '296740277186723841') return;     
     message.reply('no u') ;
     }
+    
+    if(message.content.startsWith("8ball")){
+       randomNumber = Math.floor(Math.random() * (6 - 1) + 1);
+    if(randomNumber == 2){  
+       message.reply("yes");
+}
+else{
+      message.reply("nope");
+}
 });
 // Create an event listener for new guild members
 bot.on('guildMemberAdd', member => {
