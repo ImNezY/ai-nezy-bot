@@ -37,7 +37,7 @@ bot.on('message', (message) => {
     
     if(message.content.startsWith("8ball")){
         randomNumber = Math.floor(Math.random() * 10;
-       if(randomNumber <== 5){
+       if(randomNumber == 5){
         message.reply("nope");
       }
       else{
