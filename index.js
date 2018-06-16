@@ -38,10 +38,10 @@ bot.on('message', (message) => {
     if(message.content.startsWith("8ball")){
         randomNumber = Math.floor(Math.random() * (6 - 1) + 1);
        if(randomNumber == 2){
-        message.reply("yes");
+        message.reply("nope");
       }
       else{
-       message.reply("nope");
+       message.reply("yes");
       }
        }
 });
