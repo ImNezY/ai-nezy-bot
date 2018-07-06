@@ -14,6 +14,15 @@ bot.on('message', (message) => {
         if (message.content.includes('.')) return;
         message.reply('no u');
     }
+    if(message.content == prefix + 'uinfo') {
+       let embed = new Discord.RichEmbed()
+           .setAuthor(message.author.username)
+           .setDescription("Displaying info bout this gay")
+           .setColor("#D245B7")
+           .setField("Full username");
+        
+       message.channel.sendEmbed(embed);
+    }    
     if(message.content == 'szkola') {
         // message.reply('to jebane gowno');
         message.channel.send('to jebane gówno');
