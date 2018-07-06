@@ -14,14 +14,6 @@ bot.on('message', (message) => {
         if (message.content.includes('.')) return;
         message.reply('no u');
     }
-    if(message.content == prefix + 'uinfo') {
-       let embed = new Discord.RichEmbed()
-           .setDescription("Displaying info bout this gay")
-           .setColor("#D245B7")
-           .setField("Full username");
-        
-        message.channel.sendEmbed(embed);
-    }    
     if(message.content == 'szkola') {
         // message.reply('to jebane gowno');
         message.channel.send('to jebane gówno');
@@ -73,6 +65,3 @@ bot.on('ready', () => { bot.user.setActivity('shitposting') })
 
    
 bot.login(process.env.BOT_TOKEN);
-
-   
-
