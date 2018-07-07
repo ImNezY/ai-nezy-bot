@@ -75,4 +75,4 @@ bot.on('guildMemberAdd', member => {
 bot.on('ready', () => { bot.user.setActivity('shitposting') })
 
    
-bot.login(process.env.BOT_TOKEN);
+
