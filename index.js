@@ -6,19 +6,7 @@ bot.on('message', (message) => {
     if(message.content == prefix + 'ainezy') {
         message.reply('welcome to useless nezy bot')
  
-    }  
-    if(message.content == prefix + 'avatar') {
-        let user = message.mention.users.first() || message.author;
-        
-        
-        //avatar embed
-        let embed = new Discord.RichEmbed()
-        .setAuthor(`${user.username}`)
-        .setImage(user.displayAvatarURL)
-        // finally send the avatar
-        message.chanell.send(embed)
-    }    
-        
+    } 
     if(message.content.includes('gay')) {
         if (message.author.bot) return;
         if (message.author.id === '296740277186723841') return;
@@ -75,4 +63,4 @@ bot.on('guildMemberAdd', member => {
 bot.on('ready', () => { bot.user.setActivity('shitposting') })
 
    
-
+bot.login(process.env.BOT_TOKEN);
