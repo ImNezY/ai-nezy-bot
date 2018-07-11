@@ -21,11 +21,11 @@ bot.on('message', (message) => {
     if(message.content.includes('no u')) {
         if (message.author.bot) return;
         if (message.author.id === '296740277186723841') return;
-        message.react("🇫")
-        message.react("🇹")
+        message.reply('no no no no no, u fagola and now stfu'); 
         message.react("🇸")
+        message.react("🇹")
+        message.react("🇫")
         message.react("🇺")
-        message.reply('no no no no no, u fagola and now stfu');        
     }
     if(message.content.includes('Gay')) {
        if (message.author.bot) return ;
