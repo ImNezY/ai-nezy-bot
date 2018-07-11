@@ -27,15 +27,18 @@ bot.on('message', (message) => {
        if (message.author.bot) return ;
        if (message.author.id === '296740277186723841') return;
     message.reply('no u') ;
+    message.react("👬")
     }
     
     if(message.content.includes('GAY')) {
        if (message.author.bot) return ;
        if (message.author.id === '296740277186723841') return;     
     message.reply('no u') ;
+    message.react("👬")
     }
     
     if(message.content.startsWith("8ball")){
+        message.react("<:GWfroggyMonkaThink:398570138703757332>")
         randomNumber = Math.floor(Math.random() * 10);
        if(randomNumber <= 4){
         message.reply("nope");
