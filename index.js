@@ -12,6 +12,7 @@ bot.on('message', (message) => {
         if (message.author.id === '296740277186723841') return;
         if (message.content.includes('.')) return;
         message.reply('no u');
+        message.react("👬")
     }
     if(message.content == 'szkola') {
         // message.reply('to jebane gowno');
