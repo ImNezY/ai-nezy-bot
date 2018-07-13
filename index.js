@@ -4,7 +4,7 @@ const bot = new Discord.Client();
 var prefix = "!"
 bot.on('message', (message) => {
     if(message.content == prefix + 'ainezy') {
-        message.reply('welcome to useless nezy bot')
+        message.channel.send('welcome to useless nezy bot')
  
     } 
     if(message.content.includes('gay')) {
