@@ -11,7 +11,7 @@ bot.on('message', (message) => {
         if (message.author.bot) return;
         if (message.author.id === '296740277186723841') return;
         if (message.content.includes('.')) return;
-        message.reply('no u');
+        message.channel.send('no u');
         message.react("👬")
     }
     if(message.content == 'szkola') {
@@ -21,7 +21,7 @@ bot.on('message', (message) => {
     if(message.content.includes('no u')) {
         if (message.author.bot) return;
         if (message.author.id === '296740277186723841') return;
-        message.reply('no no no no no, u fagola and now stfu'); 
+        message.channel.send('no no no no no, u fagola and now stfu'); 
         message.react("🇸")
         message.react("🇹")
         message.react("🇫")
@@ -30,14 +30,14 @@ bot.on('message', (message) => {
     if(message.content.includes('Gay')) {
        if (message.author.bot) return ;
        if (message.author.id === '296740277186723841') return;
-    message.reply('no u') ;
+    message.channel.send('no u') ;
     message.react("👬")
     }
     
     if(message.content.includes('GAY')) {
        if (message.author.bot) return ;
        if (message.author.id === '296740277186723841') return;     
-    message.reply('no u') ;
+    message.channel.send('no u') ;
     message.react("👬")
     }
     
@@ -45,10 +45,10 @@ bot.on('message', (message) => {
         message.react("🤔")
         randomNumber = Math.floor(Math.random() * 10);
        if(randomNumber <= 4){
-        message.reply("nope");
+        message.channel.send("nope");
       }
       else{
-       message.reply("yes");
+       message.channel.send("yes");
       }
        }
 });
