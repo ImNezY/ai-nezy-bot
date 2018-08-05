@@ -43,8 +43,8 @@ bot.on('message', (message) => {
     
     if(message.content.startsWith("8ball")){
         message.react("🤔")
-        randomNumber = Math.floor(Math.random() * 10);
-       if(randomNumber <= 4){
+        randomNumber = Math.floor(Math.random() * 2);
+       if(randomNumber <= 1){
         message.channel.send("nope");
       }
       else{
