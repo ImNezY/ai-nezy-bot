@@ -42,7 +42,7 @@ bot.on('message', (message) => {
     }
     
     if(message.content.startsWith("8ball")){
-        message.react("<:brzosthink:468454179212623892>")
+        message.react("468454179212623892")
         randomNumber = Math.floor(Math.random() * 2);
        if(randomNumber <= 1){
         message.channel.send("nope");
