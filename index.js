@@ -22,8 +22,8 @@ bot.on('message', (message) => {
         if (message.author.bot) return;
         if (message.author.id === '296740277186723841') return;
         message.channel.send('no no no no no, u fagola and now stfu'); 
-        awai tmessage.react("🇸")
-        awai tmessage.react("🇹")
+        await message.react("🇸")
+        await message.react("🇹")
         await message.react("🇫")
         await message.react("🇺")
     }
