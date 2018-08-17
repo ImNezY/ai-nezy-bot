@@ -10,7 +10,7 @@ bot.on('message', (message) => {
     if(message.content.includes('gay')) {
         if (message.author.bot) return;
         if (message.content.includes('.')) return;
-        message.channel.send('no u <a:succ:466330353548656658>');
+        message.channel.send('<:nou:425406598475808768> <a:succ:466330353548656658>');
         message.react("425405333289304064")
     }
     if(message.content == 'szkola') {
