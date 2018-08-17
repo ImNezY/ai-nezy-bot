@@ -57,7 +57,7 @@ bot.on('message', (message) => {
     }
     if(message.content.includes('<a:dancemoves:479648957048291330>') {
         // message.reply('<a:dancemoves:479648957048291330>');
-        message.channel.send('<a:dancemoves:479648957048291330>');
+        message.channel.send('tanczy sobie <a:dancemoves:479648957048291330>');
     }
 });
 // Create an event listener for new guild members
