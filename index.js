@@ -50,6 +50,11 @@ bot.on('message', (message) => {
        message.channel.send("yes");
       }
        }
+     if(message.content == 'dziewczynka') {
+        // message.reply('sobie tańczy');
+        message.channel.send('tańczy sobie <a:dancemoves:479648957048291330><a:dancemoves:479648957048291330><a:dancemoves:479648957048291330>');
+        message.channel.send('sobie tańczy <a:dancemoves:479648957048291330><a:dancemoves:479648957048291330><a:dancemoves:479648957048291330><a:dancemoves:479648957048291330><a:dancemoves:479648957048291330><a:dancemoves:479648957048291330><a:dancemoves:479648957048291330><a:dancemoves:479648957048291330><a:dancemoves:479648957048291330>'); 
+    }
 });
 // Create an event listener for new guild members
 bot.on('guildMemberAdd', member => {
