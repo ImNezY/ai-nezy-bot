@@ -55,10 +55,6 @@ bot.on('message', (message) => {
         message.channel.send('tańczy sobie <a:dancemoves:479648957048291330><a:dancemoves:479648957048291330><a:dancemoves:479648957048291330>');
         message.channel.send('sobie tańczy <a:dancemoves:479648957048291330><a:dancemoves:479648957048291330><a:dancemoves:479648957048291330><a:dancemoves:479648957048291330><a:dancemoves:479648957048291330><a:dancemoves:479648957048291330><a:dancemoves:479648957048291330><a:dancemoves:479648957048291330><a:dancemoves:479648957048291330>'); 
     }
-    if(message.content.includes('<a:dancemoves:479648957048291330>') {
-        // message.reply('<a:dancemoves:479648957048291330>');
-        message.channel.send('tanczy sobie <a:dancemoves:479648957048291330>');
-    }
 });
 // Create an event listener for new guild members
 bot.on('guildMemberAdd', member => {
