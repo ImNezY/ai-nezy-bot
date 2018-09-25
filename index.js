@@ -21,7 +21,7 @@ bot.on('message', (message) => {
     if(message.content.includes('no u')) {
         if (message.author.bot) return ;
         message.channel.send('no no no no no, u fagola and now stfu'); 
-        await ;
+        await
         message.react("🇸")
         message.react("🇹")
         message.react("🇫")
