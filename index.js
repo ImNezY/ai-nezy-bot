@@ -66,7 +66,7 @@ bot.on('guildMemberAdd', member => {
     // Send the message, mentioning the member
     channel.send(`Welcome to nezy server, ${member}`);
     if (server.id === '361161296726589451') return;
-    channel.send (`Welcome to Lucas gay shitty server, ${member}`
+    channel.send (`Welcome to Lucas gay shitty server, ${member}`);
     // Adding the role for new members
     var role = member.guild.roles.find('name', 'Server member');
 
