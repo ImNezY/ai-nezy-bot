@@ -10,7 +10,6 @@ bot.on('message', (message) => {
     if(message.content.includes('gay')) {
         if (message.author.bot) return;
         if (message.content.includes('.')) return;
-        if (message.content.includes(':')) return;
         message.channel.send('<:nou:425406598475808768> <a:succ:466330353548656658>');
         message.react("425405333289304064")
     }
@@ -19,9 +18,9 @@ bot.on('message', (message) => {
         message.channel.send('to jebane gówno');
     }
     if(message.content.includes('no u')) {
-        if (message.author.bot) return ;
+        if (message.author.bot) return;
+        if (message.author.id === '296740277186723841') return;
         message.channel.send('no no no no no, u fagola and now stfu'); 
-        await
         message.react("🇸")
         message.react("🇹")
         message.react("🇫")
@@ -31,14 +30,14 @@ bot.on('message', (message) => {
        if (message.author.bot) return ;
        if (message.author.id === '296740277186723841') return;
     message.channel.send('no u') ;
-    message.react("425405333289304064")
+    message.react("👬")
     }
     
     if(message.content.includes('GAY')) {
        if (message.author.bot) return ;
        if (message.author.id === '296740277186723841') return;     
     message.channel.send('no u') ;
-    message.react("425405333289304064")
+    message.react("👬")
     }
     
     if(message.content.startsWith("8ball")){
@@ -65,8 +64,7 @@ bot.on('guildMemberAdd', member => {
     if (!channel) return;
     // Send the message, mentioning the member
     channel.send(`Welcome to nezy server, ${member}`);
-    if (server.id === '361161296726589451') return;
-    channel.send (`Welcome to Lucas gay shitty server, ${member}`);
+ 
     // Adding the role for new members
     var role = member.guild.roles.find('name', 'Server member');
 
