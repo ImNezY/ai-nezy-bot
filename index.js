@@ -63,9 +63,9 @@ bot.on('guildMemberAdd', member => {
     // Do nothing if the channel wasn't found on this server
     if (!channel) return;
     // Send the message, mentioning the member
-   if (server.id === '361161296726589451') {
+    if (server.id === '361161296726589451') {
     channel.send(Welcome to Grygiel Studio, ${member});
-} else {
+     else {
     channel.send(Welcome to nezy server, ${member});
     // Adding the role for new members
     var role = member.guild.roles.find('name', 'Server member');
