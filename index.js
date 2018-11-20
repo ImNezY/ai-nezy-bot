@@ -66,7 +66,7 @@ bot.on('guildMemberAdd', member => {
     if (member.guild.id === '361161296726589451') {
         channel.send(`Welcome to Grygiel Studio, ${member}`);
     } else {
-        channel.send(`Welcome to nezy server, ${member}`);
+        channel.send(`Welcome to ${member.guild.name}, ${member}`);
     }
     // Adding the role for new members
     var role = member.guild.roles.find('name', 'Server member');
